@@ -3,7 +3,7 @@ const app=express()
 
 const port=process.env.port || 5000
 
-app.get("/",(req,res)=>{
+app.get("/home",(req,res)=>{
     res.send("this is home page")
 })
 
